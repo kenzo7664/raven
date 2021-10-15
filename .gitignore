@@ -40,6 +40,24 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+/.pnp
+.pnp.js
+# dependencies
+/node_modules
+
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # TypeScript v1 declaration files
 typings/
@@ -97,8 +115,18 @@ dist
 # FuseBox cache
 .fusebox/
 
+# Idea cache
+.idea/
+
 # DynamoDB Local files
 .dynamodb/
 
 # TernJS port file
 .tern-port
+
+# Yarn
+yarn.lock
+
+# Nginx
+nginx-access.log
+nginx-error.log
